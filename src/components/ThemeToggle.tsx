@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import Button from "./ui/Button";
+import Button from "./ui/Buttons";
 import { SunIcon } from "./ui/Icons/Sun";
 import { MoonIcon } from "./ui/Icons/Moon";
 
@@ -27,11 +27,9 @@ const ThemeToggle = () => {
   };
 
   return (
-    <div>
-      <Button onClick={handleTheme}>
-        {theme === "light" ? <SunIcon /> : <MoonIcon />}
-      </Button>
-    </div>
+    <Button onClick={handleTheme} type='button'>
+      {theme === "light" ? <SunIcon /> : <MoonIcon />}
+    </Button>
   );
 };
 
