@@ -5,19 +5,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import type SwiperType from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Pagination,
-  Navigation,
-  Autoplay,
-  Scrollbar,
-  A11y,
-} from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
-import "swiper/css/scrollbar";
-import "swiper/css/a11y";
 import Image from "next/image";
 
 interface ImageSliderProps {
