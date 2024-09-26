@@ -3,9 +3,9 @@ import LogoColored from "./ui/Logos/LogoColored";
 
 const NavBar = () => {
   return (
-    <div className='flex w-full justify-between items-center p-[10px] border-b-[1px]'>
+    <div className='flex w-full justify-between items-center py-[10px] px-[15px] border-b-[1px]'>
       <LogoColored />
-        <NavItems />
+      <NavItems />
     </div>
   );
 };

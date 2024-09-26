@@ -6,6 +6,7 @@
   :root {
     --background: #ffffff;
     --foreground: #171717;
+    --purple: #c10e58;
   }
 
   .dark {
@@ -26,5 +27,8 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .purplelinear {
+    background: linear-gradient(180deg, #c10e58 0%, #572b6b 100%);
   }
 }

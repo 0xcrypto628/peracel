@@ -5,7 +5,14 @@ interface NavItemProps {
 }
 
 const NavItem: React.FC<NavItemProps> = ({ text }) => {
-  return <Link href={`/${text.toLowerCase().replace(/ /g, "")}`}>{text}</Link>;
+  return (
+    <Link
+      href={`/${text.toLowerCase().replace(/ /g, "")}`}
+      className='hover:underline'
+    >
+      {text}
+    </Link>
+  );
 };
 
 export default NavItem;

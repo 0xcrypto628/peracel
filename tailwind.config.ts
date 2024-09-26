@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        purplelinear: "linear-gradient(180deg, #C10E58 0%, #572B6B 100%)",
+        purple: "var(--purple)",
       },
     },
   },

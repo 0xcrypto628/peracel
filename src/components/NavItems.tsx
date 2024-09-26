@@ -1,6 +1,6 @@
 import NavItem from "./NavItem";
-import ThemeToggle from "./ThemeToggle";
 import Button from "./ui/Buttons";
+import UserAccountNav from "./UserAccountNav";
 
 const NavItems = () => {
   return (
@@ -9,7 +9,7 @@ const NavItems = () => {
       <NavItem text='ABOUT US' />
       <NavItem text='CONTACT' />
       <Button>SUBSCRIBE US</Button>
-      <ThemeToggle />
+      <UserAccountNav />
     </div>
   );
 };

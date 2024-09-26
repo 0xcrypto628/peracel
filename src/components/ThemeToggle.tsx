@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Button from "./ui/Buttons";
-import { SunIcon } from "./ui/Icons/Sun";
-import { MoonIcon } from "./ui/Icons/Moon";
+import { SunIcon } from "./ui/Icons";
+import { MoonIcon } from "./ui/Icons";
 
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);
