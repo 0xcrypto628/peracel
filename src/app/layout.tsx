@@ -1,6 +1,6 @@
 import "./globals.css";
 import { raleway } from "./fonts/fonts";
-import { cn, constructMetadata } from "@/lib/utils";
+import { constructMetadata } from "@/lib/utils";
 import Providers from "@/components/providers/Providers";
 
 export const metadata = constructMetadata();
