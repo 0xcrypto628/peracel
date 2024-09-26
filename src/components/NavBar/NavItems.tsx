@@ -1,5 +1,5 @@
 import NavItem from "./NavItem";
-import Button from "./ui/Buttons";
+import Button from "../ui/Buttons";
 import UserAccountNav from "./UserAccountNav";
 
 const NavItems = () => {

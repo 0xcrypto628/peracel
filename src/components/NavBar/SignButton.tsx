@@ -1,4 +1,4 @@
-import { UserIcon } from "./ui/Icons";
+import { UserIcon } from "../ui/Icons";
 
 const SignButton = () => {
   return (

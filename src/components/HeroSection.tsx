@@ -1,6 +1,7 @@
 import { playfair_display } from "@/app/fonts/fonts";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import SearchBar from "./ui/SearchBar";
 
 const HeroSection = () => {
   return (
@@ -18,6 +19,9 @@ const HeroSection = () => {
         interview on your podcast!
       </p>
       <div className='relative h-auto aspect-[3/1] w-full'>
+        <div>
+          <SearchBar />
+        </div>
         <Image
           priority
           src='/assets/images/hero-banner.png'

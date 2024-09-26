@@ -1,5 +1,5 @@
 import NavItems from "./NavItems";
-import LogoColored from "./ui/Logos/LogoColored";
+import LogoColored from "../ui/Logos/LogoColored";
 
 const NavBar = () => {
   return (
